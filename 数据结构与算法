@@ -3,3 +3,5 @@ typedef struct{
    ElemType elem[LIST_INIT_SIZE];
    int length;   //当前长度
 }SqList；
+
+
