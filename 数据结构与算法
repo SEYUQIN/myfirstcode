@@ -1,3 +1,4 @@
+线性表
 #define MAXSIZE 1000
 
 typedef struct{
@@ -10,3 +11,11 @@ typedef struct{
 BOOK*elem;
 int length;
 }SqList;
+
+
+
+栈和队列
+栈和队列是线性表的子集
+线性表：插入  1<=i<=n+1  删除  1<=i<=n
+栈：（后进先出）  插入  n+1   删除   n
+队列： （先进先出）    插入   n+1    删除    1
